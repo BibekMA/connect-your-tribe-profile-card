@@ -65,8 +65,8 @@ section{
 
 .square-one{
   position: absolute;
-  width: 6em;
-  height: 6em;
+  width: 4em;
+  height: 4em;
   background: rgba(101, 101, 101, 0.6) ;
   left: 33%;
   top: 17%;
@@ -78,11 +78,11 @@ section{
 
 .square-two{
   position: absolute;
-  width: 6em;
-  height: 6em;
+  width: 10em;
+  height: 10em;
   background: rgba(101, 101, 101, 0.6) ;
   left: 76%;
-  top: 80%;
+  top: 60%;
   border-radius: 10%;
   backdrop-filter: blur(10px);
   filter: blur(2px);
@@ -91,8 +91,8 @@ section{
 
 .square-three{
   position: absolute;
-  width: 6em;
-  height: 6em;
+  width: 8em;
+  height: 8em;
   background: rgba(101, 101, 101, 0.6) ;
   left: 20%;
   top: 80%;
@@ -104,8 +104,8 @@ section{
 
 .square-four{
   position: absolute;
-  width: 6em;
-  height: 6em;
+  width: 12em;
+  height: 12emm;
   background: rgba(101, 101, 101, 0.6) ;
   left: 90%;
   top: 10%;
