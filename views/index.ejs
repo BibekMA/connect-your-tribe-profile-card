@@ -1,31 +1,50 @@
+
+
 <%- include('./partials/head') %>
 
-<article>
-  <header>
-    <img
-      src=" <%= avatar %> "
-      alt=""
-      width="700"
-      height="700"
-    />
-    <h1> <%= name %> </h1>
-    <p><em>Frontender in the making</em></p>
-  </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibek Mainali</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="square-one"></div>
+  <div class="square-two"></div>
+  <div class="square-three"></div>
+  <div class="square-four"></div>
+  <div class="square-five"></div>
+  <section>
+   <img src="assets/Appa.avif" alt="">
+   <h1>Bibek Mainali</h1>
+   <h2>Nickname</h2>
+   <div></div>
+   <h3>Bio</h3>
+   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, a? Aliquid cupiditate
+    nventore quisquam illum id alias sed sequi 
+    corrupti veniam voluptatibus ad, velit aut quibusdam similique temporibus nisi in.
+   </p>
+   <script>
+        let squareone = document.querySelector(".square-one");
+        
+        squareone.onclick = function () {
+          squareone.classList.toggle("active");
+        };        
+   </script>
+  </section>
+</body>
+</html>
 
-  <dl class="mid">
-    <li><%= surname %></li>
-    <li><%= nickname %></li>
-    <li><%= prefix %></li>
-    <li><%= email %></li>
-    <li><%= avatar %></li>
-    <!-- <img class="berg" src="assets/mountain.webp" alt="" /> -->
-  </dl>
 
-  <p class="rechts">
-    <%= bio %>
-  </p>
-</article>
 
-<script src="scripts/script.js"></script>
+
+
+
+
+
+
 
 <%- include('./partials/foot') %>
