@@ -5,7 +5,7 @@ import express from 'express'
 import fetchJson from './helpers/fetch-json.js'
 // door de haakjes, hoef je niet meer .data.name te doen maar kun je direcht name doen. 
 // Haal data op uit de FDND API, ga pas verder als de data gedownload is
-const { data } = await fetchJson('https://fdnd.directus.app/items/person/13')
+const { data } = await fetchJson('https://fdnd.directus.app/items/person/19')
 // console.log(data.data.bio); // uncomment om de opgehaalde data te checken
 
 // Maak een nieuwe express app aan
